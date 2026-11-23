@@ -1,0 +1,50 @@
+foods:
+  - name: Pizza Margherita
+    category: Main Course
+    calories: 300
+    price: 8.50
+    ingredients:
+      - Flour
+      - Tomato
+      - Mozzarella
+      - Basil
+
+  - name: Caesar Salad
+    category: Salad
+    calories: 180
+    price: 6.00
+    ingredients:
+      - Lettuce
+      - Chicken
+      - Parmesan
+      - Caesar Dressing
+
+  - name: Chocolate Cake
+    category: Dessert
+    calories: 450
+    price: 4.50
+    ingredients:
+      - Flour
+      - Cocoa
+      - Sugar
+      - Butter
+
+  - name: Sushi Roll
+    category: Main Course
+    calories: 220
+    price: 9.00
+    ingredients:
+      - Rice
+      - Seaweed
+      - Salmon
+      - Avocado
+
+  - name: Fruit Smoothie
+    category: Beverage
+    calories: 150
+    price: 3.50
+    ingredients:
+      - Banana
+      - Strawberry
+      - Yogurt
+      - Honey

@@ -1,0 +1,36 @@
+animal:
+  - id: 1
+    name: "Lion"
+    species: "Panthera leo"
+    habitat: "Savannah"
+    diet: "Carnivore"
+    lifespan: 10-14 years
+    endangered: true
+  - id: 2
+    name: "Elephant"
+    species: "Loxodonta africana"
+    habitat: "Savannah, Forest"
+    diet: "Herbivore"
+    lifespan: 60-70 years
+    endangered: true
+  - id: 3
+    name: "Giraffe"
+    species: "Giraffa camelopardalis"
+    habitat: "Savannah"
+    diet: "Herbivore"
+    lifespan: 25 years
+    endangered: false
+  - id: 4
+    name: "Penguin"
+    species: "Spheniscidae"
+    habitat: "Antarctic"
+    diet: "Carnivore"
+    lifespan: 15-20 years
+    endangered: false
+  - id: 5
+    name: "Kangaroo"
+    species: "Macropus"
+    habitat: "Grasslands, Forests"
+    diet: "Herbivore"
+    lifespan: 6-8 years
+    endangered: false

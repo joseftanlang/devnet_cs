@@ -1,0 +1,94 @@
+{
+  "library": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "year_published": 1925,
+      "isbn": "978-0743273565",
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "year_published": 1949,
+      "isbn": "978-0451524935",
+      "available": false
+    },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "year_published": 1960,
+      "isbn": "978-0060935467",
+      "available": true
+    },
+    {
+      "id": 4,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "year_published": 1937,
+      "isbn": "978-0547928227",
+      "available": true
+    },
+    {
+      "id": 5,
+      "title": "A Brief History of Time",
+      "author": "Stephen Hawking",
+      "genre": "Science",
+      "year_published": 1988,
+      "isbn": "978-0553380163",
+      "available": false
+    },
+    {
+      "id": 6,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "year_published": 1813,
+      "isbn": "978-0141439518",
+      "available": true
+    },
+    {
+      "id": 7,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "year_published": 1951,
+      "isbn": "978-0316769488",
+      "available": true
+    },
+    {
+      "id": 8,
+      "title": "The Silmarillion",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "year_published": 1977,
+      "isbn": "978-0544336261",
+      "available": false
+    },
+    {
+      "id": 9,
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "genre": "History",
+      "year_published": 2011,
+      "isbn": "978-0062316097",
+      "available": true
+    },
+    {
+      "id": 10,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Science Fiction",
+      "year_published": 1965,
+      "isbn": "978-0441172719",
+      "available": true
+    }
+  ]
+}

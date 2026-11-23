@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animals>
+    <animal>
+        <id>1</id>
+        <name>Lion</name>
+        <species>Panthera leo</species>
+        <habitat>Savannah</habitat>
+        <diet>Carnivore</diet>
+        <lifespan>10-14 years</lifespan>
+    </animal>
+    <animal>
+        <id>2</id>
+        <name>Elephant</name>
+        <species>Loxodonta africana</species>
+        <habitat>Grasslands and forests</habitat>
+        <diet>Herbivore</diet>
+        <lifespan>60-70 years</lifespan>
+    </animal>
+    <animal>
+        <id>3</id>
+        <name>Penguin</name>
+        <species>Aptenodytes forsteri</species>
+        <habitat>Antarctic regions</habitat>
+        <diet>Carnivore (fish)</diet>
+        <lifespan>15-20 years</lifespan>
+    </animal>
+    <animal>
+        <id>4</id>
+        <name>Kangaroo</name>
+        <species>Macropus rufus</species>
+        <habitat>Australian outback</habitat>
+        <diet>Herbivore</diet>
+        <lifespan>6-8 years</lifespan>
+    </animal>
+    <animal>
+        <id>5</id>
+        <name>Giraffe</name>
+        <species>Giraffa camelopardalis</species>
+        <habitat>African savannah</habitat>
+        <diet>Herbivore</diet>
+        <lifespan>25 years</lifespan>
+    </animal>
+</animals>

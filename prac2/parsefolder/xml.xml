@@ -1,0 +1,62 @@
+<foods>
+    <food>
+        <name>Pizza Margherita</name>
+        <category>Main Course</category>
+        <calories>300</calories>
+        <price>8.50</price>
+        <ingredients>
+            <ingredient>Flour</ingredient>
+            <ingredient>Tomato</ingredient>
+            <ingredient>Mozzarella</ingredient>
+            <ingredient>Basil</ingredient>
+        </ingredients>
+    </food>
+    <food>
+        <name>Caesar Salad</name>
+        <category>Salad</category>
+        <calories>180</calories>
+        <price>6.00</price>
+        <ingredients>
+            <ingredient>Lettuce</ingredient>
+            <ingredient>Chicken</ingredient>
+            <ingredient>Parmesan</ingredient>
+            <ingredient>Caesar Dressing</ingredient>
+        </ingredients>
+    </food>
+    <food>
+        <name>Chocolate Cake</name>
+        <category>Dessert</category>
+        <calories>450</calories>
+        <price>4.50</price>
+        <ingredients>
+            <ingredient>Flour</ingredient>
+            <ingredient>Cocoa</ingredient>
+            <ingredient>Sugar</ingredient>
+            <ingredient>Butter</ingredient>
+        </ingredients>
+    </food>
+    <food>
+        <name>Sushi Roll</name>
+        <category>Main Course</category>
+        <calories>220</calories>
+        <price>9.00</price>
+        <ingredients>
+            <ingredient>Rice</ingredient>
+            <ingredient>Seaweed</ingredient>
+            <ingredient>Salmon</ingredient>
+            <ingredient>Avocado</ingredient>
+        </ingredients>
+    </food>
+    <food>
+        <name>Fruit Smoothie</name>
+        <category>Beverage</category>
+        <calories>150</calories>
+        <price>3.50</price>
+        <ingredients>
+            <ingredient>Banana</ingredient>
+            <ingredient>Strawberry</ingredient>
+            <ingredient>Yogurt</ingredient>
+            <ingredient>Honey</ingredient>
+        </ingredients>
+    </food>
+</foods>

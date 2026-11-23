@@ -1,0 +1,34 @@
+{
+    "animal": [
+        {
+            "id": 1,
+            "name": "dog",
+            "age": 5,
+            "breed": "Labrador"
+        },
+        {
+            "id": 2,
+            "name": "cat",
+            "age": 3,
+            "breed": "Siamese"         
+        },
+        {
+            "id": 3,
+            "name": "parrot",
+            "age": 2,
+            "breed": "African Grey"
+        },
+        {
+            "id": 4,
+            "name": "rabbit",
+            "age": 1,
+            "breed": "Netherland Dwarf"
+        },
+        {
+            "id": 5,
+            "name": "hamster",
+            "age": 1,
+            "breed": "Syrian"
+        }
+    ]
+}

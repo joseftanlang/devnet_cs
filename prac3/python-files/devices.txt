@@ -1,0 +1,8 @@
+item
+hasmter
+lobster
+cat
+dog
+chicken
+caviar
+alien

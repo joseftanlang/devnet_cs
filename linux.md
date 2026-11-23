@@ -69,3 +69,133 @@ Example: `-rwxr-xr-x 1 devasc devasc 1095 Mar 30 21:24 script.sh`
 4. **`:w`**: Write (save) the file.
 5. **`:q`**: Quit the editor.
 6. **`:wq`**: Write and quit.
+
+## 6. Git Version Control
+
+## 6.1 Initial Setup
+
+Before you start using Git, you need to tell it who you are. This information is attached to every commit you make.
+
+```bash
+# Set your name and email globally
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# Verify your settings
+git config --list
+```
+
+## 6.2 Starting a Repository
+
+A repository (repo) is a folder that Git is tracking.
+
+```bash
+# Initialize a brand new Git repo in your current folder
+git init
+
+# Clone (download) an existing repo from GitHub
+git clone https://github.com/username/repo-name.git
+```
+
+## 6.3 The Basic Workflow (Stage & Commit)
+
+Git has a staging area where you put files before you save them permanently.
+
+```bash
+# Check the status of your files (red = untracked/modified, green = staged)
+git status
+
+# Stage a specific file
+git add filename.py
+
+# Stage ALL changed files
+git add .
+
+# Commit your staged files with a descriptive message
+git commit -m "Added new script for parsing JSON"
+
+# Stage and commit all tracked files at once (skips the `git add` step)
+git commit -am "Updated logic in parsing script"
+```
+
+## 6.4 Branching & Merging
+
+Branches allow you to work on features without messing up the main code.
+
+```bash
+# List all local branches (the * indicates your current branch)
+git branch
+
+# Create a new branch
+git branch feature-branch
+
+# Switch to a branch
+git checkout feature-branch
+
+# Create AND switch to a new branch in one command
+git checkout -b feature-branch
+
+# Merge another branch INTO your current branch
+# (e.g., you are on `main` and want to pull in changes from `feature`)
+git merge feature-branch
+
+# Delete a branch (only after it's merged)
+git branch -d feature-branch
+```
+
+## 6.5 Working with Remotes (GitHub)
+
+Sending your code to the cloud and getting other people's changes.
+
+```bash
+# See where your remote (GitHub) is pointing
+git remote -v
+
+# Push your local commits to the remote repository
+git push origin main
+
+# Pull the latest changes from the remote into your local machine
+git pull origin main
+
+# Fetch changes to see what others did WITHOUT merging them into your code yet
+git fetch origin
+```
+
+## 6.6 Viewing History
+
+```bash
+# See a list of all commits (newest at the top)
+git log
+
+# See a short, one-line summary of each commit
+git log --oneline
+
+# See what changes you made since your last commit
+git diff
+```
+
+## 6.7 Undoing Things (Emergency Commands)
+
+*Be careful with these!*
+
+```bash
+# Unstage a file (keeps your changes, just removes it from the staging area)
+git restore --staged filename.py
+
+# Discard changes in a file (WARNING: your recent edits to that file will be lost)
+git restore filename.py
+
+# Undo the last commit, but keep the changes in your working directory
+git reset --soft HEAD~1
+
+# Completely undo the last commit and delete the changes (DANGEROUS)
+git reset --hard HEAD~1
+```
+
+## 6.8 The Golden Rule of `git pull`
+
+If you get an error that says `failed to push some refs` or `rejected`, it means someone else pushed to GitHub while you were working.
+
+**Never use `git push --force`.**
+
+Always run `git pull origin main` first to merge their changes with yours, resolve any conflicts, and *then* push.
